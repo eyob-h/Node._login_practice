@@ -1,0 +1,19 @@
+
+<%- include('header')-%>
+    
+<div class="text-center center-div" id="login">
+<div class="container w-25 bg-white border shadow-lg p-3 mb-5 bg-body rounded ">
+    <div class="title">
+        <h2 class="font-weight-bold">Welcome to your dashboard.</h2>
+        <span>
+            <h3><%= locals.username?username:"User"%></h3>
+        </span>
+        <a class="btn btn-success rounded-pill mt-5 " href="/route/logout">Logout</a>
+    </div>
+    
+</div>
+
+</div>
+
+
+<%-include('footer')-%>

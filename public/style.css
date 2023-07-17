@@ -1,0 +1,9 @@
+.center-div{
+    padding-top: 10%;
+}
+
+body{
+    background-image: url("/assets/pexels-mati-mango-5952738.jpg");   
+    background-size: cover;
+    background-repeat: no-repeat;
+}
